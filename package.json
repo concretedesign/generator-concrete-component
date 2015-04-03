@@ -1,0 +1,33 @@
+{
+  "name": "generator-concrete-component",
+  "version": "0.0.0",
+  "description": "Generates components for https://github.com/concretedesign/concrete-isomorphic-react",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "concretedesign/generator-concrete-component",
+  "author": {
+    "name": "Matt Crider",
+    "email": "mattcrider@gmail.com",
+    "url": "https://github.com/mcrider"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.9",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
