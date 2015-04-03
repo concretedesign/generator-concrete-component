@@ -1,7 +1,7 @@
 {
   "name": "generator-concrete-component",
-  "version": "1.0.0",
-  "description": "Generates components for https://github.com/concretedesign/concrete-isomorphic-react",
+  "version": "1.0.1",
+  "description": "Generates components for concrete-isomorphic-react",
   "license": "MIT",
   "main": "app/index.js",
   "repository": {
