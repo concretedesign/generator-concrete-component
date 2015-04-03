@@ -1,10 +1,13 @@
 {
   "name": "generator-concrete-component",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generates components for https://github.com/concretedesign/concrete-isomorphic-react",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "concretedesign/generator-concrete-component",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/concretedesign/generator-concrete-component.git"
+  }
   "author": {
     "name": "Matt Crider",
     "email": "mattcrider@gmail.com",
