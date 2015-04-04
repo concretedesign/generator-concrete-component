@@ -81,7 +81,7 @@ module.exports = yeoman.generators.Base.extend({
       var hook   = '// ===== '+this.componentType+' hook =====',
           path   = 'app/assets/styles/app.scss',
           file   = this.readFileAsString(path),
-          insert = '@import "../../components/'+this.componentType+'/'+this.componentName+'/'+this.componentName+'"';
+          insert = '@import "../../components/'+this.componentType+'/'+this.componentName+'/'+this.componentName+'";';
 
       if (file.indexOf(insert) === -1) {
         this.write(path, file.replace(hook, hook+'\n'+insert));
